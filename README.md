@@ -1,5 +1,5 @@
 # arduino-python-communication
-Arduino code and a python script that allow for dynamic, two way communication between an arduino board and your computer without blocking from either part and without the need for them to take turns sending messages.
+Arduino code and a python script that allow for dynamic, two way communication between an arduino board and your computer through the usb cable without blocking from either part and without the need for them to take turns sending messages.
 
 
 Currently, the arduino has a microswitch and an LED hooked up to it. If the microswitch is pressed, the arduino sends an integer to the computer that increases by one everytime the switch is pressed. Meanwhile, from the computer you can tell the arduino to turn the LED on and off by sending the appropriate message.
